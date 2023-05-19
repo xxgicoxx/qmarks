@@ -1,0 +1,59 @@
+{
+	"name": "qmarks",
+	"displayName": "QMarks",
+	"version": "1.0.0",
+	"description": "Visual Studio Code extension for update lines with quote marks",
+	"author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
+	"license": "MIT",
+	"main": "./src/extension.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xxgicoxx/qmarks.git"
+	},
+	"bugs": {
+		"url": "https://github.com/xxgicoxx/qmarks/issues"
+	},
+	"homepage": "https://github.com/xxgicoxx/qmarks#readme",
+	"keywords": [
+		"qmarks",
+		"vscode",
+		"update",
+		"console"
+	],
+	"publisher": "xxgicoxx",
+	"icon": "src/static/icons/icon.png",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.qmarks"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.qmarks.single.line",
+				"title": "Add single quote (line)"
+			},
+			{
+				"command": "extension.qmarks.double.line",
+				"title": "Add quotation marks (line)"
+			},
+			{
+				"command": "extension.qmarks.single.space",
+				"title": "Add single quote (space)"
+			},
+			{
+				"command": "extension.qmarks.double.space",
+				"title": "Add quotation marks (space)"
+			}
+		]
+	},
+	"devDependencies": {
+		"eslint": "^8.12.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.25.4"
+	}
+}
