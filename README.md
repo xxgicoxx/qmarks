@@ -1,5 +1,5 @@
 # QMarks
-Visual Studio Code extension for update lines with quote marks.
+Visual Studio Code extension to update lines with quote marks.
 
 <p align="center">
   <img src="assets/imgs/qmarks.gif">

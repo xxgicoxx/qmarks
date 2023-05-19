@@ -2,7 +2,7 @@
 	"name": "qmarks",
 	"displayName": "QMarks",
 	"version": "1.0.0",
-	"description": "Visual Studio Code extension for update lines with quote marks",
+	"description": "Visual Studio Code extension to update lines with quote marks",
 	"author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
 	"license": "MIT",
 	"main": "./src/extension.js",
